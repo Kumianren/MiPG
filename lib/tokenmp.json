@@ -1,0 +1,14 @@
+{
+"wgcf_key": "MDx0SyYkQRpshraiKYdP6SjeWqVYjG83LHrjjxFrKFw=",
+"wgcf_key2": "mEO42XlrAWoK6PO4CLgpNPmOElmmEvRB5KuCEOlrxGE=",
+"wgcf_ipport": "162.159.195.91:968",
+"wgcf_xray_url": "./xray.gz",
+"wgcf_json_url": "./wgcfp.json",
+"wgcf_vless_id": "de44b044-8f90-4e18-b742-16591667ff96",
+"wgcf_vless_optname": "43.154.34.74:1935",
+"wgcf_vless_worker": "edgetunnel-free.pages.dev",
+"wgcf_vless_path": "/?ed=2048",
+"wgcf_vless_protocol": "vless",
+"wgcf_vless_network": "ws",
+"wgcf_vless_tls": true
+}
