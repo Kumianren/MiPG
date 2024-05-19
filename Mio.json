@@ -1,5 +1,5 @@
 {
-  "logo":"https://raw.githubusercontent.com/Kumianren/MiPG/main/Smile.png",
+  "logo":"./Smile.png",
   "spider": "./pg.jar",
   "sites": [
     {
