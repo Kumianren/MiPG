@@ -1,5 +1,5 @@
 {
-  "logo":"./Smile.png",
+  "logo":"./smile.png",
   "spider": "./pg.jar",
   "sites": [
     {
