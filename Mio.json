@@ -44,33 +44,12 @@
       }
     },
     {
-      "key": "YouTube",
-      "name": "YouTube",
-      "type": 3,
-      "api": "csp_XBPQ",
-    "jar":"./lib/XBPQ.jar",
-      "ext": {
-               "分类url":"https://www.youtube.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4" 
-                 }
-        },
-    {
-      "key": "酷影视",
-      "name": "🍃酷影影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.tvkuys.xyz/api.php/app/"
-    },
-    {
       "key": "DiDuan",
       "name": "⏮️低端┃🍚",
       "type": 3,
       "api": "csp_Ddrk",
       "playerType": "2",
-      "jar": "./FTY.jar",
+      "jar": "./fty.jar",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -79,7 +58,7 @@
       "key": "zxzj",
       "name": "🍊在线┃🍚",
       "type": 3,
-      "jar": "./FTY.jar",
+      "jar": "./fty.jar",
       "api": "csp_Zxzj",
       "timeout": 15,
       "searchable": 1,
@@ -92,7 +71,7 @@
       "name": "🍄比特┃🍚",
       "type": 3,
       "api": "csp_Bttwoo",
-      "jar": "./FTY.jar",
+      "jar": "./fty.jar",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -102,7 +81,7 @@
       "name": "🍎苹果┃🍚",
       "type": 3,
       "api": "csp_LiteApple",
-      "jar": "./FTY.jar",
+      "jar": "./fty.jar",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -111,7 +90,7 @@
       "key": "原创",
       "name": "☀原创┃🍚",
       "type": 3,
-      "jar": "./FTY.jar",
+      "jar": "./fty.jar",
       "api": "csp_YCyz",
       "timeout": 15,
       "searchable": 1,
@@ -867,6 +846,7 @@
       "type": 1,
       "url": "http://119.91.123.253:2345/Api/yun.php?url="
     },
+    {"name":"星星","type":1,"url":"http://xxjx.qqwx.ren/?url="},
     {
       "name": "777",
       "type": 0,
