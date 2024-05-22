@@ -98,16 +98,17 @@
       "changeable": 1
     },
     {
-      "key": "厂长",
-      "name": "🏭厂长┃🍚",
-      "type": 3,
-      "playerType": "2",
+      "key":"热播",
+      "name":"📺热播┃🍚",
+      "type":3,
       "jar": "./fty.jar",
-      "api": "csp_NewCz",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.czys.top/"
+      "api":"csp_AppTT",
+      "timeout":15,
+      "playerType":2,
+      "searchable":1,
+      "quickSearch":1,
+      "changeable":1,
+      "ext":"AO7TcBkd8I/B5wQc4Qma+pU="
     },
     {
       "key": "drpy_js_NT动漫",
@@ -871,6 +872,6 @@
     "mgtv",
     "wasu"
   ],
-  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "wallpaper": "https://xhdwc.tk/api/img.php",
   "disabled_wallpaper": "http://www.kf666888.cn/api/tvbox/img"
 }
