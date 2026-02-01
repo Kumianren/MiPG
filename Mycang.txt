@@ -33,7 +33,7 @@
             "name": "🐼(备)"
         },
         {
-            "url": "https://d.kstore.dev/download/8386/zx.json",
+            "url": "https://raw.githubusercontent.com/Kumianren/MiPG/refs/heads/main/zx.json",
             "name": "💕ZX"
         },
         {
