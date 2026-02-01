@@ -10,7 +10,7 @@
       "api": "csp_Config",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./tokenm.json"
+      "ext": "./lib/tokenm.json"
     },
     {
       "key": "PushShare",
@@ -22,7 +22,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60,
-      "ext": "./tokenm.json$$$./mypushshare.txt$$$db$$$1",
+      "ext": "./lib/tokenm.json$$$./mypushshare.txt$$$db$$$1",
       "style": {"type": "list","ratio": 1.1}
     },
     {
@@ -33,7 +33,7 @@
       "quickSearch":1,
       "changeable":0,
       "timeout":60,
-      "ext":"./tokenm.json$$$http://www.wogg.lol/$$$null$$$1$$$./lib/wogg.json$$$WOGG"
+      "ext":"./lib/tokenm.json$$$http://www.wogg.lol/$$$null$$$1$$$./lib/wogg.json$$$WOGG"
     },
     {
       "key":"EX",
@@ -43,7 +43,7 @@
       "quickSearch":1,
       "changeable":0,
       "timeout":60,
-      "ext":"./tokenm.json$$$https://erxiaofn.click/$$$null$$$1$$$./lib/wogg.json$$$EX"
+      "ext":"./lib/tokenm.json$$$https://erxiaofn.click/$$$null$$$1$$$./lib/wogg.json$$$EX"
     },
     {
       "key":"至臻",
@@ -53,7 +53,7 @@
       "quickSearch":1,
       "changeable":0,
       "timeout":60,
-      "ext":"./tokenm.json$$$http://xiaomi666.fun/$$$null$$$1$$$./lib/wogg.json$$$ZZ"
+      "ext":"./lib/tokenm.json$$$http://xiaomi666.fun/$$$null$$$1$$$./lib/wogg.json$$$ZZ"
     },
     {
       "key":"闪电",
@@ -63,7 +63,7 @@
       "quickSearch":1,
       "changeable":0,
       "timeout":60,
-      "ext":"./tokenm.json$$$https://sduc.cloud/$$$null$$$1$$$./lib/wogg.json$$$SD"
+      "ext":"./lib/tokenm.json$$$https://sduc.cloud/$$$null$$$1$$$./lib/wogg.json$$$SD"
     },
     {
       "key":"腊笔",
@@ -73,7 +73,7 @@
       "quickSearch":1,
       "changeable":0,
       "timeout":60,
-      "ext":"./tokenm.json$$$http://www.labi88.sbs/$$$null$$$1$$$./lib/wogg.json$$$LB"
+      "ext":"./lib/tokenm.json$$$http://www.labi88.sbs/$$$null$$$1$$$./lib/wogg.json$$$LB"
     },
     {
       "key": "校长影视",
@@ -84,7 +84,7 @@
       "changeable": 0,
       "filterable": 1,
       "timeout": 60,
-      "ext": "./tokenm.json$$$https://xzyshd.com$$$null$$$1"
+      "ext": "./lib/tokenm.json$$$https://xzyshd.com$$$null$$$1"
     },
     {
 	  "key":"Youtube",
