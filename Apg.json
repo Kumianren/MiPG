@@ -128,11 +128,11 @@
 	  "timeout":120,
 	  "ext":"./tokenm.json$$$https://www.meijumi.net/"
 	},
-    {"key":"YingSo","name":"🔎影搜搜","type":3,"api":"csp_YingSo","timeout":60, "ext":"./tokenm.json"},
-    {"key": "混合盘","name": "🔎混合盘","type": 3,"api": "csp_HunHePan","timeout": 60,"ext": "./tokenm.json","style": {"type": "list","ratio": 1.1}},
-    {"key": "盘友圈","name": "🔎盘友圈","type": 3,"api": "csp_Panyq","timeout": 60,"ext": "./tokenm.json"},
-    {"key":"Funletu","name":"🔎趣盘搜","type":3,"api":"csp_Funletu","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./tokenm.json","style": {"type": "list","ratio": 1.1}},
-    {"key": "PanSearch","name": "🔎PSearch","type": 3,"api": "csp_PanSearch","quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60,"ext": "./tokenm.json"},
+    {"key":"YingSo","name":"🔎影搜搜","type":3,"api":"csp_YingSo","timeout":60, "ext":"./lib/tokenm.json"},
+    {"key": "混合盘","name": "🔎混合盘","type": 3,"api": "csp_HunHePan","timeout": 60,"ext": "./lib/tokenm.json","style": {"type": "list","ratio": 1.1}},
+    {"key": "盘友圈","name": "🔎盘友圈","type": 3,"api": "csp_Panyq","timeout": 60,"ext": "./lib/tokenm.json"},
+    {"key":"Funletu","name":"🔎趣盘搜","type":3,"api":"csp_Funletu","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json","style": {"type": "list","ratio": 1.1}},
+    {"key": "PanSearch","name": "🔎PSearch","type": 3,"api": "csp_PanSearch","quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60,"ext": "./lib/tokenm.json"},
     {
       "key": "WebDAV",
       "name": "WebDAV",
@@ -141,25 +141,11 @@
       "searchable": 1,
       "changeable": 0,
       "ext": "./WebDAV.json"
-    },
-    {
-	  "key": "直播转点播",
-	  "name": "📺直转点",
-	  "type": 3,
-	  "searchable": 0,
-	  "api": "./lib/live2vod.js",
-	  "ext": "./lib/feimaolive.json"
     }
   ],
   "lives": [
     {
-      "name": "live.ipv6",
-      "type": 0,
-      "url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "name":"冰茶","type":0,"url":"https://bc.188766.xyz/?ip=&mishitong=true&mima=mianfeibuhuaqian&json=true","timeout":10,"ua":"bingcha/1.1(mianfeifenxiang)"
     }
   ],
   "doh": [
