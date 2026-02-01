@@ -1,0 +1,44 @@
+{
+    "urls": [
+        {
+            "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/",
+            "name": "🐃(原)"
+        },
+        {
+            "url": "https://d.kstore.dev/download/8386/wex.json",
+            "name": "🐃(备)"
+        },
+        {
+            "url": "http://www.饭太硬.com/tv",
+            "name": "🍚(原)"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Kumianren/MiPG/refs/heads/main/fan.json",
+            "name": "🍚(备)"
+        },
+        {
+            "url": "http://ok321.top/tv",
+            "name": "🆗(原)"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Kumianren/MiPG/refs/heads/main/ok.json",
+            "name": "🆗(备)"
+        },
+        {
+            "url": "http://肥猫.com",
+            "name": "🐼(原)"
+        },
+        {
+            "url": "https://6296.kstore.vip/facat.json",
+            "name": "🐼(备)"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Kumianren/MiPG/refs/heads/main/Azx.json",
+            "name": "🛜ZX"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Kumianren/MiPG/refs/heads/main/Apg.json",
+            "name": "🛜PG"
+        }
+    ]
+}
