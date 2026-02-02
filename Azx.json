@@ -1,6 +1,6 @@
 {
   "spider": "./custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
-  "wallpaper": "https://bing.img.run/rand.php",
+  "wallpaper": "https://深色壁纸.xxooo.cf/",
   "logo":"./smile.png",
   "sites": [
     {
@@ -65,19 +65,6 @@
       "ext": {
         "commonConfig": "./json/peizhi.json",
         "siteUrl": "http://xiaomi666.fun/",
-        "filter": "./json/wogg.json"
-      }
-    },
-    {
-      "key": "校长",
-      "name": "网盘 | 校长",
-      "type": 3,
-      "api": "csp_kongbai",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "./json/peizhi.json",
-        "siteUrl": "https://xzyshd.com",
         "filter": "./json/wogg.json"
       }
     },
@@ -148,7 +135,13 @@
         },
         "commonConfig": "./json/peizhi.json"
       }
-    },
+    },"jar":"./fan.jar",
+    {"key":"厂长","jar":"./fan.jar","name":"📔厂长┃秒播","type":3,"api":"csp_NewCzGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"文采","jar":"./fan.jar","name":"💮文采┃秒播","type":3,"api":"csp_JpysGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"原创","jar":"./fan.jar","name":"☀原创┃秒播","type":3,"api":"csp_YCyzGuard","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"比特","jar":"./fan.jar","name":"🍄比特┃秒播","type":3,"api":"csp_BttwooGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"苹果","jar":"./fan.jar","name":"🍎苹果┃秒播","type":3,"api":"csp_LiteAppleGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"热播","jar":"./fan.jar","name":"📺热播┃多线","type":3,"api":"csp_AppTTGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"uqGL1bNENExT7/hGxpSE5qU="},
     {
       "key": "pansou | fish",
       "name": "🔎 | fish",
