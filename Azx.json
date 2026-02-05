@@ -95,6 +95,17 @@
         "commonConfig": "./json/peizhi.json"
       }
     },
+    {  
+      "key": "GuaZi",
+      "name": "瓜子 | 影视",
+      "type": 3,
+      "api": "csp_GuaZi",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
     {
       "key": "荐片",
       "name": "磁力 | 荐片",
@@ -128,7 +139,6 @@
     {"key":"原创","jar":"./fan.jar","name":"☀原创┃秒播","type":3,"api":"csp_YCyzGuard","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
     {"key":"比特","jar":"./fan.jar","name":"🍄比特┃秒播","type":3,"api":"csp_BttwooGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
     {"key":"苹果","jar":"./fan.jar","name":"🍎苹果┃秒播","type":3,"api":"csp_LiteAppleGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
-
     {
       "key": "pansou | fish",
       "name": "🔎 | fish",
