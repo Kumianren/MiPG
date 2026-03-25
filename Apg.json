@@ -35,6 +35,8 @@
       "timeout":60,
       "ext":"./lib/tokenm.json$$$http://www.wogg.lol/$$$null$$$1$$$./lib/wogg.json$$$WOGG"
     },
+    {"key":"Mogg","name":"🎎木偶☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://123.666291.xyz/$$$noproxy$$$1$$$./lib/wogg.json$$$MOGG"},
+    {"key":"yydsys","name":"🎎多多☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./lib/wogg.json$$$WNLG"},
     {
       "key":"EX",
       "name":"🎎二小☁",
@@ -53,7 +55,7 @@
       "quickSearch":1,
       "changeable":0,
       "timeout":60,
-      "ext":"./lib/tokenm.json$$$http://xiaomi666.fun/$$$null$$$1$$$./lib/wogg.json$$$ZZ"
+      "ext":"./lib/tokenm.json$$$https://www.mihdr.top/$$$null$$$1$$$./lib/wogg.json$$$ZZ"
     },
     {
       "key":"闪电",
@@ -76,62 +78,11 @@
       "timeout": 60,
       "ext": "./lib/tokenm.json$$$https://xzyshd.com$$$null$$$1"
     },
-    {
-	  "key":"Youtube",
-	  "name":"🚀Youtube",
-	  "type":3,
-	  "api": "csp_Youtube",
-	  "searchable": 1,
-	  "quickSearch": 0,
-	  "changeable": 0,
-	  "timeout": 60,
-	  "ext":{"json":"./youtube.json","keywords":"TRENDS,热门话题,热门趋势,","codecs":""},
-	  "style": {"type": "rect","ratio": 1.8}
-	},
-	{
-	  "key":"Guazi",
-	  "name":"🍉香瓜子",
-	  "type":3,
-	  "api":"csp_Guazi",
-	  "quickSearch":1, 
-	  "changeable":1, 
-	  "filterable":1, 
-	  "timeout":60
-	},
-	{
-	  "key": "黑木耳",
-      "name": "🍀黑木耳",
-	  "type": 1,
-	  "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-	  "searchable": 1,
-	  "quickSearch": 1,
-	  "categories": ["国产动漫","日本动漫","欧美动漫","动画电影"]
-	},
-    {
-	  "key":"美剧迷",
-	  "name":"📽美剧迷",
-	  "type":3,
-	  "api":"csp_Meijumi", 
-	  "quickSearch":1, 
-	  "changeable":1, 
-	  "filterable":1, 
-	  "timeout":120,
-	  "ext":"./tokenm.json$$$https://www.meijumi.net/"
-	},
     {"key":"YingSo","name":"🔎影搜搜","type":3,"api":"csp_YingSo","timeout":60, "ext":"./lib/tokenm.json"},
     {"key": "混合盘","name": "🔎混合盘","type": 3,"api": "csp_HunHePan","timeout": 60,"ext": "./lib/tokenm.json","style": {"type": "list","ratio": 1.1}},
     {"key": "盘友圈","name": "🔎盘友圈","type": 3,"api": "csp_Panyq","timeout": 60,"ext": "./lib/tokenm.json"},
     {"key":"Funletu","name":"🔎趣盘搜","type":3,"api":"csp_Funletu","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json","style": {"type": "list","ratio": 1.1}},
-    {"key": "PanSearch","name": "🔎PSearch","type": 3,"api": "csp_PanSearch","quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60,"ext": "./lib/tokenm.json"},
-    {
-      "key": "WebDAV",
-      "name": "WebDAV",
-      "type": 3,
-      "api": "csp_WebDAV",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "./WebDAV.json"
-    }
+    {"key": "PanSearch","name": "🔎PSearch","type": 3,"api": "csp_PanSearch","quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60,"ext": "./lib/tokenm.json"}
   ],
   "lives": [
     {
@@ -139,24 +90,6 @@
     }
   ],
   "doh": [
-    {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": [
-        "8.8.4.4",
-        "8.8.8.8"
-      ]
-    },
-    {
-      "name": "Cloudflare",
-      "url": "https://cloudflare-dns.com/dns-query",
-      "ips": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ]
-    },
     {
       "name": "AdGuard",
       "url": "https://dns.adguard.com/dns-query",
