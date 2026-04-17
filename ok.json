@@ -1,7 +1,7 @@
-//      >>> 当前时间是：2026-03-25 08:29:00 <<<
+//      >>> 当前时间是：2026-04-16 23:34:33 <<<
 //     关注微信公众号【太太太硬了】有惊喜哦！！！
 
-//     当前接口：http://ok321.top/tv
+//     当前接口：http://ok213.top/tv
 {
     "spider": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wall",
@@ -249,7 +249,7 @@
             "name": "⭐指南┃4K原盘",
             "type": 3,
             "api": "csp_AweSomeGuard",
-            "searchable": 0,
+            "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 0,
@@ -318,6 +318,21 @@
             "timeout": 25
         },
         {
+            "key": "七味",
+            "name": "🌈七味┃弹幕",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "sp": "QiWei",
+                "danmu": true
+            },
+            "timeout": 30
+        },
+        {
             "key": "瓜子",
             "name": "🍉瓜子┃弹幕",
             "type": 3,
@@ -375,21 +390,6 @@
                 "sp": "TianTian",
                 "danmu": true,
                 "site": 0
-            },
-            "timeout": 10
-        },
-        {
-            "key": "雄鹰弹幕版",
-            "name": "🦅雄鹰┃弹幕",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "sp": "XiongYing",
-                "danmu": true
             },
             "timeout": 10
         },
@@ -610,6 +610,24 @@
             "timeout": 30
         },
         {
+            "key": "我的迅雷",
+            "name": "⭐我的┃迅雷",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            },
+            "ext": {
+                "sp": "MyXunLei"
+            },
+            "timeout": 30
+        },
+        {
             "key": "️爱看Bot弹幕版",
             "name": "⛅️爱看┃弹幕",
             "type": 3,
@@ -635,7 +653,8 @@
             "filterable": 1,
             "ext": {
                 "sp": "Caiji",
-                "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/",
+                "api": "http://dyttzy5.tv/api.php/provide/vod/from/dyttm3u8/at/m3u8/",
+                "exclude": "34",
                 "danmu": true
             },
             "timeout": 10
@@ -652,6 +671,7 @@
             "ext": {
                 "sp": "Caiji",
                 "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/m3u8/",
+                "exclude": "34",
                 "danmu": true
             },
             "timeout": 10
@@ -875,15 +895,15 @@
             "timeout": 10
         },
         {
-            "key": "六月听书",
-            "name": "🎤六月┃听书",
+            "key": "听悠听书",
+            "name": "🎤听悠┃听书",
             "type": 3,
             "api": "csp_AweSomeGuard",
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "sp": "WeiTing"
+                "sp": "TingYou"
             },
             "timeout": 10
         },
@@ -1052,6 +1072,24 @@
                 "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/531DD35_773_biligzkt_20251204150243460newMediaFile.bmp"
             },
             "timeout": 20
+        },
+        {
+            "key": "115分享",
+            "name": "🌷115┃分享",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            },
+            "ext": {
+                "sp": "Pan115Share"
+            },
+            "timeout": 30
         },
         {
             "key": "csp_AListGuard",

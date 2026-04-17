@@ -1,6 +1,14 @@
 {
     "urls": [
         {
+            "url": "https://raw.githubusercontent.com/Kumianren/MiPG/refs/heads/main/Azx.json",
+            "name": "🛜ZX"
+        },
+        {
+            "url": "https://9280.kstore.vip/newwex.json",
+            "name": "🐃(新)"
+        },
+        {
             "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/",
             "name": "🐃(原)"
         },
@@ -17,7 +25,7 @@
             "name": "🍚(备)"
         },
         {
-            "url": "http://ok321.top/tv",
+            "url": "http://ok521.top/tv",
             "name": "🆗(原)"
         },
         {
@@ -31,10 +39,6 @@
         {
             "url": "https://6296.kstore.vip/facat.json",
             "name": "🐼(备)"
-        },
-        {
-            "url": "https://raw.githubusercontent.com/Kumianren/MiPG/refs/heads/main/Azx.json",
-            "name": "🛜ZX"
         },
         {
             "url": "https://raw.githubusercontent.com/Kumianren/MiPG/refs/heads/main/Apg.json",
