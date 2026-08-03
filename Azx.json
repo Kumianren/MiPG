@@ -132,7 +132,7 @@
       "filterable": 1,
       "changeable": 0,
       "ext": {
-               "gy_token_path": "https://raw.githubusercontent.com/Kumianren/MiPG/refs/heads/main/gy_token.json",
+               "gy_token_path": "https://github.com/Kumianren/MiPG/blob/a8cf563df0818155160b0044f7540402150cbe13/gy_token.json",
                "username": "Kumianren",
                "password": "a@63913560"
                 }
