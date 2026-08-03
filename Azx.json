@@ -132,7 +132,7 @@
       "filterable": 1,
       "changeable": 0,
       "ext": {
-               "gy_token_path": "https://d.kstore.dev/download/8386/gy_token.json",
+               "gy_token_path": "https://raw.githubusercontent.com/Kumianren/MiPG/refs/heads/main/gy_token.json",
                "username": "Kumianren",
                "password": "a@63913560"
                 }
