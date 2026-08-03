@@ -23,7 +23,7 @@
       "switchable": 0,
       "ext": {
         "commonConfig": "./json/peizhi.json",
-        "share": "./diyzx.json"
+        "share": "./DIYzx.json"
       }
     },
     {
