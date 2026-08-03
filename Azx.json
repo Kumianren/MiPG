@@ -123,21 +123,6 @@
       }
     },
     {
-      "key": "panlian",
-      "name": "盘链 | 鸭py",
-      "type": 3,
-      "api": "./py/光鸭盘链.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": {
-               "gy_token_path": "./gy_token.json",
-               "username": "Kumianren",
-               "password": "a@63913560"
-                }
-    },
-    {
       "key": "Jpys",
       "name": "金牌 | 影视",
       "type": 3,
