@@ -73,6 +73,20 @@
       }
     },
     {
+      "key": "盘链",
+      "name": "盘链 | 网盘",
+      "type": 3,
+      "api": "csp_PanLian",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "siteUrl": "https://pinglian.lol/",
+        "username": "Kumianren",
+        "password": "a@63913560",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
       "key": "观影",
       "name": "观影 | 网盘",
       "type": 3,
