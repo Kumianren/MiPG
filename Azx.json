@@ -151,19 +151,6 @@
       }
     },
     {
-      "key": "玩偶 | 闪电",
-      "name": "闪电 | 网盘",
-      "type": 3,
-      "api": "csp_kongbai",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "siteUrl": "https://sduc.cloud/",
-        "filter": "./json/wogg.json",
-        "commonConfig": "./json/peizhi.json"
-      }
-    },
-    {
       "key": "玩偶 | 木偶",
       "name": "木偶 | 网盘",
       "type": 3,
