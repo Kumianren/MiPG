@@ -1,6 +1,6 @@
 {
   "logo":"./smile.png",
-  "spider": "./custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+  "spider": "./custom_spider.jar",
   "wallpaper": "https://bing.img.run/rand.php",
   "sites": [
     {
@@ -25,6 +25,58 @@
       "ext": {
         "commonConfig": "./json/peizhi.json",
         "share": "./DIYzx.json"
+      }
+    },
+    {
+      "key": "FourKZN",
+      "name": "指南 | 网盘",
+      "type": 3,
+      "api": "csp_FourKZN",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "siteUrl": "https://4kzn.cc",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "盘链",
+      "name": "盘链 | 网盘",
+      "type": 3,
+      "api": "csp_PanLian",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "siteUrl": "https://pinglian.lol/",
+        "username": "Kumianren",
+        "password": "a@63913560",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "观影",
+      "name": "观影 | 网盘",
+      "type": 3,
+      "api": "csp_GuanYing",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://www.xn--wcv59z.com/",
+        "username": "kumianren",
+        "password": "Qq63913560"
+      }
+    },
+    {
+      "key": "SeedHub",
+      "name": "Seed | 网盘",
+      "type": 3,
+      "api": "csp_SeedHub",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -73,31 +125,42 @@
       }
     },
     {
-      "key": "盘链",
-      "name": "盘链 | 网盘",
+      "key": "玩偶 | 讴歌",
+      "name": "讴歌 | 网盘",
       "type": 3,
-      "api": "csp_PanLian",
+      "api": "csp_kongbai",
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "siteUrl": "https://pinglian.lol/",
-        "username": "Kumianren",
-        "password": "a@63913560",
+        "siteUrl": "https://woog.nxog.eu.org/",
+        "filter": "./json/wogg.json",
         "commonConfig": "./json/peizhi.json"
       }
     },
     {
-      "key": "观影",
-      "name": "观影 | 网盘",
+      "key": "玩偶 | 蜡笔",
+      "name": "蜡笔 | 网盘",
       "type": 3,
-      "api": "csp_GuanYing",
+      "api": "csp_kongbai",
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./json/peizhi.json",
-        "siteUrl": "https://www.xn--wcv59z.com/",
-        "username": "kumianren",
-        "password": "Qq63913560"
+        "siteUrl": "https://xiaocgege.shop/",
+        "filter": "./json/wogg.json",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "玩偶 | 闪电",
+      "name": "闪电 | 网盘",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "siteUrl": "https://sduc.cloud/",
+        "filter": "./json/wogg.json",
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -137,9 +200,24 @@
         "filter": "./json/wogg.json"
       }
     },
+        {
+            "key": "panlian",
+            "name": "盘链 | 鸭py",
+            "type": 3,
+            "api": "./py/光鸭盘链.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+               "gy_token_path": "/storage/emulated/0/apg/gy_token.json",
+               "username": "Kumianren",
+               "password": "a@63913560"
+                }
+        },
     {
       "key": "Jpys",
-      "name": "金牌 | 影视",
+      "name": "金牌 | 在线",
       "type": 3,
       "api": "csp_Jpys",
       "searchable": 1,
@@ -153,7 +231,7 @@
     },
     {  
       "key": "GuaZi",
-      "name": "瓜子 | 影视",
+      "name": "瓜子 | 在线",
       "type": 3,
       "api": "csp_GuaZi",
       "searchable": 1,
@@ -164,7 +242,7 @@
     },
     {
       "key": "荐片",
-      "name": "磁力 | 荐片",
+      "name": "荐片 | 在线",
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
@@ -190,10 +268,6 @@
         "commonConfig": "./json/peizhi.json"
       }
     },
-    {"key":"腾腾","name":"🐧腾腾┃JX","type":3,"api":"./js/drpy2.min.js","ext":"./js/腾腾.js"},
-    {"key":"奇奇","name":"🐴奇奇┃JX","type":3,"api":"./js/drpy2.min.js","ext":"./js/奇奇.js"},
-    {"key":"果果","name":"🍋果果┃JX","type":3,"api":"./js/drpy2.min.js","ext":"./js/果果.js"},
-    {"key":"酷酷","name":"😎酷酷┃JX","type":3,"api":"./js/drpy2.min.js","ext":"./js/酷酷.js"},
     {
       "key": "push_agent",
       "name": "推送",
@@ -207,13 +281,6 @@
       }
     }
   ],
-  "parses":[
-    {"name":"测试解析","type":1,"url":"http://127.0.0.1:9978/proxy?do=voxjx&url="},
-    {"name":"手动解析①","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"}}},
-    {"name":"手动解析②","type":0,"url":"https://jx.nnxv.cn/tv.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"}}},
-    {"name":"手动解析③","type":0,"url":"https://jx.m3u8.tv/jiexi/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"}}},
-    {"name":"手动解析④","type":0,"url":"https://www.ckplayer.vip/jiexi/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"}}},
-    {"name":"手动解析⑤","type":0,"url":"https://okjx.cc/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"}}}],
   "doh": [
     {
       "name": "Google",
