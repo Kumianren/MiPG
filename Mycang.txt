@@ -1,8 +1,12 @@
 {
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/Kumianren/MiPG/refs/heads/main/Azx.json",
-            "name": "🛜ZX"
+            "url": "file://apg/Azx.json",
+            "name": "💕ZX"
+        },
+        {
+            "url": "file://apg/mio.json",
+            "name": "㊙️PG"
         },
         {
             "url": "https://9280.kstore.vip/newwex.json",
@@ -12,7 +16,15 @@
             "url": "https://9280.kstore.vip/wex.json",
             "name": "🐃(备)"
         },
-                {
+        {
+            "url": "http://www.饭太硬.cc/tv",
+            "name": "🍚(原)"
+        },
+        {
+            "url": "http://fty.xxooo.cf/tv",
+            "name": "🍚(备)"
+        },
+        {
             "url": "http://摸鱼儿.cc",
             "name": "🐟(原)"
         },
@@ -27,18 +39,6 @@
         {
             "url": "https://9763.kstore.vip/aowu.json",
             "name": "🐺(备)"
-        },
-        {
-            "url": "http://www.饭太硬.cc/tv",
-            "name": "🍚(原)"
-        },
-        {
-            "url": "http://fty.xxooo.cf/tv",
-            "name": "🍚(备)"
-        },
-        {
-            "url": "https://raw.githubusercontent.com/Kumianren/MiPG/refs/heads/main/Apg.json",
-            "name": "🛜PG"
         }
     ]
 }
