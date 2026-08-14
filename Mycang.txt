@@ -6,7 +6,7 @@
         },
         {
             "url": "file://apg/mio.json",
-            "name": "㊙️PG"
+            "name": "🐼PG"
         },
         {
             "url": "https://9280.kstore.vip/newwex.json",

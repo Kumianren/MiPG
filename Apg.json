@@ -68,17 +68,9 @@
       "timeout":60,
       "ext":"./lib/tokenm.json$$$https://www.mihdr.top/$$$null$$$1$$$./lib/wogg.json$$$ZZ"
     },
-    {
-      "key":"闪电",
-      "name":"🎎闪电☁",
-      "type":3,
-      "api":"csp_Wobg",
-      "quickSearch":1,
-      "changeable":0,
-      "timeout":60,
-      "ext":"./lib/tokenm.json$$$https://sduc.cloud/$$$null$$$1$$$./lib/wogg.json$$$SD"
-    },
     {"key":"蜡笔网盘","name":"🎎蜡笔☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://xiaocgege.shop/$$$noproxy$$$1$$$./lib/wogg.json$$$LABI"},
+    {"key":"多多","name":"🎎多多☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://tv.yydsys.top/$$$noproxy$$$1$$$./lib/wogg.json$$$DD"},
+    {"key":"讴歌","name":"🎎讴歌☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://woog.nxog.eu.org/$$$noproxy$$$1$$$./lib/wogg.json$$$OG"},
     {
       "key": "校长影视",
       "name": "👴校长☁",
@@ -90,36 +82,10 @@
       "timeout": 60,
       "ext": "./lib/tokenm.json$$$https://xzyshd.com$$$null$$$1"
     },
-	{ "key": "盘链", "name": "盘链|网盘", "type": 3, "api": "csp_PingLian", "searchable": 1, "timeout":60, "ext": "./lib/tokenm.json$$$https://pinglian.lol$$$$$$0$$$$$$PANLIAN$$$Kumianren$$$a@63913560" },
-	{"key":"FourKZN","name":"4K指南|网盘|磁力","type":3,"api":"csp_FourKZN","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://4kzn.cc/$$$noproxy$$$1$$$./lib/4kzn.txt$$$4KZN"},
-    {
-      "key": "光鸭社区",
-      "name": "光鸭社区",
-      "type": 3,
-      "api": "csp_GuangYaShequ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {
-        "token": "./lib/tokenm.json",
-        "page_size": 40,
-        "tmdb_key": "2894d9a1baf7812b451de03c801b0281",
-        "tmdb_api": "https://api.tmdb.org",
-        "tmdb_img": "https://images.tmdb.org/t/p",
-        "cache_file": "/storage/emulated/0/TV/gy_tmdb_pic_cache.json"  }
-    },
-    		{"key":"LIBVIO","name":"LIBVIO|网盘","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.libvio.io/$$$noproxy$$$1"},
-		{"key":"Moli","name":"HDmoli|网盘","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.hdmoli.com/$$$noproxy$$$1$$$./lib/moli.json"},
-	{
-	  "key":"Guazi",
-	  "name":"🍉香瓜子",
-	  "type":3,
-	  "api":"csp_Guazi",
-	  "quickSearch":1, 
-	  "changeable":1, 
-	  "filterable":1, 
-	  "timeout":60
-	},
+	{ "key": "盘链", "name": "🔗盘链☁", "type": 3, "api": "csp_PingLian", "searchable": 1, "timeout":60, "ext": "./lib/tokenm.json$$$https://pinglian.lol$$$$$$0$$$$$$PANLIAN$$$Kumianren$$$a@63913560" },
+	{"key":"FourKZN","name":"👇指南☁","type":3,"api":"csp_FourKZN","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://4kzn.cc/$$$noproxy$$$1$$$./lib/4kzn.txt$$$4KZN"},
+	{"key":"Moli","name":"🌸moli☁","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.hdmoli.com/$$$noproxy$$$1$$$./lib/moli.json"},
+    {"key":"LIBVIO","name":"🎥LIBVIO","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.libvio.io/$$$noproxy$$$1"},	
     {
 	  "key":"美剧迷",
 	  "name":"📽美剧迷",
@@ -130,6 +96,16 @@
 	  "filterable":1, 
 	  "timeout":120,
 	  "ext":"./lib/tokenm.json$$$https://www.meijumi.net/"
+	},
+	{
+	  "key":"Guazi",
+	  "name":"🍉香瓜子",
+	  "type":3,
+	  "api":"csp_Guazi",
+	  "quickSearch":1, 
+	  "changeable":1, 
+	  "filterable":1, 
+	  "timeout":60
 	},
     {"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"./lib/tokenm.json"}
   ],
