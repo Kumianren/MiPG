@@ -12,7 +12,7 @@
 	  "quickSearch": 0,
 	  "changeable": 0,
 	  "timeout": 60,
-	  "ext":{"json":"./youtube.json","keywords":"TRENDS,热门话题,热门趋势,","codecs":""},
+	  "ext":{"json":"./youtubePG.json","keywords":"TRENDS,热门话题,热门趋势,","codecs":""},
 	  "style": {"type": "rect","ratio": 1.8}
 	},
     {
