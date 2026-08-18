@@ -2,6 +2,7 @@
   "services":"./json/services.json",
   "panOrder": "bdp|uc|p123|quark|ali|guangya|yd|ty|115##原畫|普畫",
   "aliToken": "",
+  "baiduCookie": "",
   "quarkCookie": "",
   "ucCookie": "",
   "ucToken": "",
