@@ -4,6 +4,15 @@
   "spider": "./pg.jar",
   "sites": [
     {
+      "key": "网盘配置",
+      "name": "⚙️配置⚙️",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./lib/tokenm.json"
+    },
+    {
 	  "key":"Youtube",
 	  "name":"🚀Youtube",
 	  "type":3,
@@ -15,15 +24,6 @@
 	  "ext":{"json":"./youtubePG.json","keywords":"TRENDS,热门话题,热门趋势,","codecs":""},
 	  "style": {"type": "rect","ratio": 1.8}
 	},
-    {
-      "key": "网盘配置",
-      "name": "⚙️配置⚙️",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "./lib/tokenm.json"
-    },
     {
       "key": "PushShare",
       "name": "☁我的☁",
