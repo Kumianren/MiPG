@@ -1,6 +1,6 @@
 {
   "logo":"./smile.png",
-  "wallpaper": "https://bing.img.run/rand.php",
+  "wallpaper": "https://img-api.wuxie.de/bing/random",
   "spider": "./pg.jar",
   "sites": [
     {
@@ -56,7 +56,7 @@
       "quickSearch":1,
       "changeable":0,
       "timeout":60,
-      "ext":"./lib/tokenm.json$$$https://www.2xiaopan.top/$$$null$$$1$$$./lib/wogg.json$$$EX"
+      "ext":"./lib/tokenm.json$$$https://https://wexwp.cc/$$$null$$$1$$$./lib/wogg.json$$$EX"
     },
     {
       "key":"至臻",
