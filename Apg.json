@@ -12,12 +12,6 @@
       "changeable": 0,
       "ext": "./lib/tokenm.json"
     },
-    		{"key":"115Share","name":"115云盘分享","type":3,"api":"csp_P115Share","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":120, "ext":"./lib/tokenm.json$$$./lib/115share.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
     {
 	  "key":"Youtube",
 	  "name":"🚀Youtube",
@@ -43,19 +37,13 @@
       "ext": "./lib/tokenm.json$$$./DIYpg.txt$$$db$$$1",
       "style": {"type": "list","ratio": 1.1}
     },
-    {
-      "key":"wogg",
-      "name":"🎎玩偶☁",
-      "type":3,
-      "api":"csp_Wogg",
-      "quickSearch":1,
-      "changeable":0,
-      "timeout":60,
-      "ext":"./lib/tokenm.json$$$http://www.wogg.lol/$$$null$$$1$$$./lib/wogg.json$$$WOGG"
-    },
-    {"key":"Mogg","name":"🎎木偶☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.muou.site/$$$noproxy$$$1$$$./lib/wogg.json$$$MOGG"},
-    {"key":"多多","name":"🎎多多☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://tv.yydsys.top/$$$noproxy$$$1$$$./lib/wogg.json$$$DD"},
-    {"key":"讴歌","name":"🎎讴歌☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://woog.nxog.eu.org/$$$noproxy$$$1$$$./lib/wogg.json$$$OG"},
+    {"key":"Hjzc","name":"☁花卷☁","type":3,"api":"csp_Hjzc","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.hjzhencai.top$$$noproxy$$$1$$$./lib/wogg.json$$$HJZC"},
+		{"key":"Hdhive","name":"☁影巢☁","type":3,"api":"csp_Hdh","quickSearch":1, "changeable":1, "filterable":1, "timeout":120, "ext":"./lib/tokenm.json$$$https://re0.me$$$noproxy$$$1$$$./lib/hdhive.txt$$$HDHIVE"},
+		{"key":"HDHaven","name":"☁栖影☁","type":3,"api":"csp_HDHaven","quickSearch":1, "changeable":1, "filterable":1, "timeout":120, "ext":"./lib/tokenm.json$$$https://hdhaven.com$$$noproxy$$$1$$$./lib/hdhaven.txt$$$hdhaven$$$USER$$$PASS"},
+  //  { "key":"wogg", "name":"🎎玩偶☁", "type":3, "api":"csp_Wogg", "quickSearch":1, "changeable":0, "timeout":60, "ext":"./lib/tokenm.json$$$http://www.wogg.lol/$$$null$$$1$$$./lib/wogg.json$$$WOGG" },
+  //  {"key":"Mogg","name":"🎎木偶☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.muou.site/$$$noproxy$$$1$$$./lib/wogg.json$$$MOGG"},
+  //  {"key":"多多","name":"🎎多多☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://tv.yydsys.top/$$$noproxy$$$1$$$./lib/wogg.json$$$DD"},
+  //  {"key":"讴歌","name":"🎎讴歌☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://woog.nxog.eu.org/$$$noproxy$$$1$$$./lib/wogg.json$$$OG"},
     {
       "key": "校长影视",
       "name": "👴校长☁",
@@ -92,7 +80,11 @@
 	  "filterable":1, 
 	  "timeout":60
 	},
-    {"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"./lib/tokenm.json"}
+	{ "key":"HongGuo","name":"🍎红果短剧","type":3,"api":"csp_HongGuo","searchable":1,"quickSearch":1,"changeable":1,"filterable":0,"timeout":60, "playerType": 2 },
+	{ "key":"115Share","name":"☁115分享","type":3,"api":"csp_P115Share","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":120, "ext":"./lib/tokenm.json$$$./lib/115share.txt$$$db$$$1", "style": { "type": "list", "ratio": 1.1 }	},
+	{ "key":"PanSouGo","name":"🔎盘搜","type":3,"api":"csp_PanSouGo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext": { "token": "./lib/tokenm.json", "siteurl": "https://so.252035.xyz", "proxy": "noproxy", "danmu": "0", "plugins": "all", "panlist": "115,baidu,quark,uc", "filters": { "include": [], "exclude": ["广告", "预告"] } } },
+	{ "key":"Mipan","name":"🔎觅盘","type":3,"api":"csp_Mipan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext": { "token": "./lib/tokenm.json", "panlist": "115,baidu,quark,uc" } },
+    { "key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"./lib/tokenm.json" }
   ],
   "lives": [
     {
