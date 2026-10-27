@@ -12,6 +12,7 @@
       "changeable": 0,
       "ext": "./lib/tokenm.json"
     },
+    {  "key": "豆瓣",  "name": "豆瓣",  "type": 3,  "api": "csp_Douban",  "searchable": 0,  "changeable": 1,  "indexs":1,  "ext": "./lib/tokenm.json$$$./lib/douban.json"  },
     {
 	  "key":"Youtube",
 	  "name":"🚀Youtube",
@@ -37,14 +38,12 @@
       "ext": "./lib/tokenm.json$$$./DIYpg.txt$$$db$$$1",
       "style": {"type": "list","ratio": 1.1}
     },
-    {"key":"Hjzc","name":"☁花卷☁","type":3,"api":"csp_Hjzc","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.hjzhencai.top$$$noproxy$$$1$$$./lib/wogg.json$$$HJZC"},
 	{"key":"Hdhive","name":"🎥影巢☁","type":3,"api":"csp_Hdh","quickSearch":1, "changeable":1, "filterable":1, "timeout":120, "ext":"./lib/tokenm.json$$$https://re0.me$$$noproxy$$$1$$$./lib/hdhive.txt$$$HDHIVE"},
 	{"key":"HDHaven","name":"🎥栖影☁","type":3,"api":"csp_HDHaven","quickSearch":1, "changeable":1, "filterable":1, "timeout":120, "ext":"./lib/tokenm.json$$$https://hdhaven.com$$$noproxy$$$1$$$./lib/hdhaven.txt$$$hdhaven$$$USER$$$PASS"},
 	{"key":"HuamuCangShare","name":"🎥聚影☁","type":3,"api":"csp_HuamuCangShare","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.jying.top/$$$noproxy$$$1$$$./lib/huamucang.txt$$$HUAMUCANG$$$smiling$$$a@12345678"},
   //  { "key":"wogg", "name":"🎎玩偶☁", "type":3, "api":"csp_Wogg", "quickSearch":1, "changeable":0, "timeout":60, "ext":"./lib/tokenm.json$$$http://www.wogg.lol/$$$null$$$1$$$./lib/wogg.json$$$WOGG" },
-  //  {"key":"Mogg","name":"🎎木偶☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.muou.site/$$$noproxy$$$1$$$./lib/wogg.json$$$MOGG"},
-  //  {"key":"多多","name":"🎎多多☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://tv.yydsys.top/$$$noproxy$$$1$$$./lib/wogg.json$$$DD"},
-  //  {"key":"讴歌","name":"🎎讴歌☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://woog.nxog.eu.org/$$$noproxy$$$1$$$./lib/wogg.json$$$OG"},
+  //  { "key":"Mogg","name":"🎎木偶☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.muou.site/$$$noproxy$$$1$$$./lib/wogg.json$$$MOGG" },
+  //  { "key":"Hjzc","name":"☁花卷☁","type":3,"api":"csp_Hjzc","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.hjzhencai.top$$$noproxy$$$1$$$./lib/wogg.json$$$HJZC" },
     {
       "key": "校长影视",
       "name": "👴校长☁",
@@ -59,11 +58,13 @@
 	{"key":"FourKZN","name":"👇指南☁","type":3,"api":"csp_FourKZN","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://4kzn.cc/$$$noproxy$$$1$$$./lib/4kzn.txt$$$4KZN"},
 	{"key":"Moli","name":"🌸moli☁","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.hdmoli.com/$$$noproxy$$$1$$$./lib/moli.json"},
     { "key":"LIBVIO","name":"🎥LIBVIO","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.libvio.io/$$$noproxy$$$1"},	
-    { "key":"美剧迷", "name":"📽美剧迷", "type":3, "api":"csp_Meijumi", "quickSearch":1,  "changeable":1, "filterable":1, "timeout":120, "ext":"./lib/tokenm.json$$$https://www.meijumi.net/" },
+    { "key":"美剧迷", "name":"📽美剧迷", "type":3, "api":"csp_Meijumi", "quickSearch":1,  "changeable":1, "filterable":1, "timeout":120, "ext":"./lib/tokenm.json$$$https://www.meijumi.net/null$$$1" },
 	{ "key": "新6V", "name": "📽新6V☁", "type": 3, "api": "csp_Xb6v", "searchable": 1, "changeable": 1, "timeout": 60, "ext": "./lib/tokenm.json$$$https://www.xb6v.com$$$null$$$1" },
 	{ "key":"Guazi", "name":"🍉香瓜子", "type":3, "api":"csp_Guazi", "quickSearch":1,  "changeable":1,  "filterable":1,  "timeout":60 },
-	{ "key":"HongGuo","name":"🍎红果短剧","type":3,"api":"csp_HongGuo","searchable":1,"quickSearch":1,"changeable":1,"filterable":0,"timeout":60, "playerType": 2 },
-	{ "key":"115Share","name":"☁115分享","type":3,"api":"csp_P115Share","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":120, "ext":"./lib/tokenm.json$$$./lib/115share.txt$$$db$$$1", "style": { "type": "list", "ratio": 1.1 }	},
+	{ "key":"HongGuo","name":"🍎果短剧","type":3,"api":"csp_HongGuo","searchable":1,"quickSearch":1,"changeable":1,"filterable":0,"timeout":60, "playerType": 2 },
+	{  "key": "ikun",	"name": "⚠️爱看🤖",	"type": 1,	"api": "https://ikunzyapi.com/api.php/provide/vod/?",	 "playerType":1,	"searchable": 1,  "changeable": 1,  "categories": [ "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "欧美剧", "韩剧", "日剧", "港剧", "台剧", "泰剧", "海外剧", "纪录片", "大陆综艺", "日韩综艺", "港台综艺", "欧美综艺", "国产动漫", "日韩动漫", "欧美动漫", "动画片", "港台动漫", "海外动漫"  ]	},
+	{	"key": "暴風",	"name": "⚠️暴風🌪️",	"type": 1,	"api": "https://bfzyapi.com/api.php/provide/vod?",	"searchable": 1,  "changeable": 1,	"categories": [ "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "欧美剧", "韩剧", "日剧", "港剧", "台剧", "泰剧", "海外剧", "纪录片", "大陆综艺", "日韩综艺", "港台综艺", "欧美综艺", "国产动漫", "日韩动漫", "欧美动漫", "动画片", "港台动漫", "海外动漫"  ]  },
+//	{ "key":"115Share","name":"☁115分享","type":3,"api":"csp_P115Share","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":120, "ext":"./lib/tokenm.json$$$./lib/115share.txt$$$db$$$1", "style": { "type": "list", "ratio": 1.1 }	},
 	{ "key":"PanSouGo","name":"🔎盘搜","type":3,"api":"csp_PanSouGo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext": { "token": "./lib/tokenm.json", "siteurl": "https://so.252035.xyz", "proxy": "noproxy", "danmu": "0", "plugins": "all", "panlist": "115,baidu,quark,uc", "filters": { "include": [], "exclude": ["广告", "预告"] } } },
 	{ "key":"Mipan","name":"🔎觅盘","type":3,"api":"csp_Mipan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext": { "token": "./lib/tokenm.json", "panlist": "115,baidu,quark,uc" } },
     { "key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"./lib/tokenm.json" }
