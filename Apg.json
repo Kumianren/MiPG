@@ -5,7 +5,8 @@
   "sites": [
     {  "key": "网盘配置",  "name": "⚙️配置⚙️",  "type": 3,  "api": "csp_Config",  "searchable": 0,  "changeable": 0,  "ext": "./lib/tokenm.json"  },
     {  "key": "PushShare",  "name": "☁我的☁",  "type": 3,  "api": "csp_PushShare",  "searchable": 1,  "quickSearch": 1,  "changeable": 0,  "filterable": 0,  "timeout": 60,  "ext": "./lib/tokenm.json$$$./DIYpg.txt$$$db$$$1",  "style": { "type": "list", "ratio": 1.1 }  },
-  	{  "key":"FourKZN",  "name":"🧭指南☁",  "type":3,  "api":"csp_FourKZN",  "quickSearch":1,  "changeable":1,  "filterable":1,  "timeout":60,  "ext":"./lib/tokenm.json$$$https://4kzn.cc/$$$noproxy$$$1$$$./lib/4kzn.txt$$$4KZN"  },
+  	{  "key":"FourKZN",  "name":"🧭指南☁",  "type":3,  "api":"csp_FourKZN",  "quickSearch":1,  "changeable":1,  "filterable":1,  "timeout":60,  "ext":"./lib/tokenm.json$$$https://4kzn.cc$$$noproxy$$$1$$$./lib/4kzn.txt$$$4KZN"  },
+  	  	{  "key":"FourKXC",  "name":"🃏小丑☁",  "type":3,  "api":"csp_FourKZN",  "quickSearch":1,  "changeable":1,  "filterable":1,  "timeout":60,  "ext":"./lib/tokenm.json$$$https://4kxc.com$$$noproxy$$$1$$$./lib/4kxc.txt$$$4KXC"  },
     {  "key":"LIBVIO",  "name":"🛸libvio☁",  "type":3,"api":"csp_Libvio",  "quickSearch":1,  "changeable":1, "filterable":1,  "timeout":60,  "ext":"./lib/tokenm.json$$$https://www.libvio.io/$$$noproxy$$$1"        },	
     {  "key":"美剧迷",  "name":"🧲美剧☁",  "type":3, "api":"csp_Meijumi",  "quickSearch":1,  "changeable":1,  "filterable":1,  "timeout":120,  "ext":"./lib/tokenm.json$$$https://www.meijumi.net/null$$$1"  },
 	{  "key": "新6V",  "name": "🧲新6V☁",  "type": 3,  "api": "csp_Xb6v",  "searchable": 1,  "changeable": 1,  "timeout": 60,  "ext": "./lib/tokenm.json$$$https://www.xb6v.com$$$null$$$1"  },
@@ -22,7 +23,7 @@
 	{  "key":"bili",  "name":"BiLi BiLi",  "type":3,  "api": "csp_Bili",  "searchable": 1,  "quickSearch": 0,  "changeable": 0,  "timeout":60,  "playerType": 2,  "ext":{  "token":"./lib/tokenm.json",	"cookie":" "  },  "style": {  "type": "rect",	"ratio": 1.77	}	     },
     {  "key":"wogg", "name":"🎎玩偶☁", "type":3, "api":"csp_Wogg", "quickSearch":1, "changeable":0, "timeout":60, "ext":"./lib/tokenm.json$$$http://www.wogg.lol/$$$null$$$1$$$./lib/wogg.json$$$WOGG"   },
     {  "key":"Mogg","name":"🎎木偶☁","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.muou.site/$$$noproxy$$$1$$$./lib/wogg.json$$$MOGG"  },
-    {  "key":"Hjzc",  "name":"☁花卷☁",  "type":3,  "api":"csp_Hjzc",  "quickSearch":1, "changeable":1,  "filterable":1,  "timeout":60,  "ext":"./lib/tokenm.json$$$https://www.hjzhencai.top$$$noproxy$$$1$$$./lib/wogg.json$$$HJZC"     },
+    {  "key":"Hjzc",  "name":"☁花卷☁",  "type":3,  "api":"csp_Hjzc",  "quickSearch":1, "changeable":1,  "filterable":1,  "timeout":60,  "ext":"./lib/tokenm.json$$$https://www.huanjuanwp.shop$$$noproxy$$$1$$$./lib/wogg.json$$$HJZC"     },
 //    { "key":"115Share","name":"☁115分享","type":3,"api":"csp_P115Share","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":120, "ext":"./lib/tokenm.json$$$./lib/115share.txt$$$db$$$1", "style": { "type": "list", "ratio": 1.1 }	},
     {  "key": "豆瓣",  "name": "👍🏽豆瓣🔍",  "type": 3,  "api": "csp_Douban",  "searchable": 0,  "changeable": 1,  "indexs":1,  "ext": "./lib/tokenm.json$$$./lib/douban.json"  },
    	{  "key":"PanSouGo",  "name":"🔎盘搜🔍",  "type":3,  "api":"csp_PanSouGo",  "quickSearch":1,  "changeable":1,  "filterable":1,  "timeout":60,  "ext": {  "token": "./lib/tokenm.json",  "siteurl": "https://so.252035.xyz",  "proxy": "noproxy",  "plugins": "all",  "panlist": "115,baidu,quark,uc",  "filters": {  "include": [ ],  "exclude": [ "广告", "预告" ]  }  }      },

@@ -40,6 +40,18 @@
       }
     },
     {
+      "key": "FourKXC",
+      "name": "小丑 | 网盘",
+      "type": 3,
+      "api": "csp_FourKZN",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "siteUrl": "https://4kxc.com",
+        "commonConfig": "./json/peizhiZX.json"
+      }
+    },
+    {
       "key": "观影",
       "name": "观影 | 网盘",
       "type": 3,
@@ -65,7 +77,7 @@
         "commonConfig": "./json/peizhiZX.json"
       }
     },
-//    {  "key": "玩偶 | 花卷",  "name": "花卷 | 网盘",  "type": 3,  "api": "csp_HuaJuan",  "searchable": 1,  "changeable": 0,  "ext": {  "commonConfig": "./json/peizhi.json",  "siteUrl": [  "https://www.hjzhencai.top/"  ]  }  },
+    {  "key": "玩偶 | 花卷",  "name": "花卷 | 网盘",  "type": 3,  "api": "csp_HuaJuan",  "searchable": 1,  "changeable": 0,  "ext": {  "commonConfig": "./json/peizhi.json",  "siteUrl": [  "https://www.hjzhencai.top/",  "https://www.huanjuanwp.shop"  ]  }  },
 //    {  "key": "玩偶 | 木偶",  "name": "木偶 | 网盘",  "type": 3,  "api": "csp_kongbai",  "searchable": 1,  "changeable": 0,  "ext": {  "commonConfig": "./json/peizhiZX.json",  "siteUrl": [ "https://333.333291.xyz/",  "https://www.muou.asia",  "https://666.666291.xyz",  "https://123.666291.xyz"  ],  "filter": "./json/wogg.json"  }  },
 //    {  "key": "玩偶gg",  "name": "饭总 | 网盘",  "type": 3,  "api": "csp_Wogg",  "searchable": 1,  "changeable": 0,  "ext": {  "commonConfig": "./json/peizhiZX.json",  "siteUrl":  [  "https://woggpan.888484.xyz",  "https://woggpan.xxooo.cf",  "https://wogg.333232.xyz",  "https://wogg4k.333232.xyz" ],  "filter": "./json/wogg.json"  }  },
     {
@@ -149,6 +161,20 @@
       }
     },
 //    {  "key": "网盘集合",  "name": "大包 | 网盘",  "type": 3,  "api": "csp_网盘集合",  "searchable": 1,  "filterable": 0,  "changeable": 0,  "ext": {  "share": "./网盘集合.json",  "commonConfig": "./json/peizhiZX.json"  }  },
+{
+      "key": "csp_BiliFilm",
+      "name": "哔哩 | 影视",
+      "type": 3,
+      "api": "csp_BiliFilm",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "json": "./json/bilibili.json",
+        "cookie": "SESSDATA=cfe72487%2C1802390669%2C5c3b7%2A82CjBvXcPIXeGgRVhhxHXa8DqEgevZIlzrMRq8xdLBEJOk8CrPeKFRY3vKIiXyaZ3VbgISVmJnU3hQUVg3enB1OHltTmtfTFMzOHVseHJFR0pKU0MxQTF2cG1RaWU3RENFQWJSaUVncVZZRHRzZHdqUGc2aDU4MjVWVTRuWi1xZkFCWTBtRjh4a2ZnIIEC; bili_jct=cdae92b09f1b43f1a0a6f0a229c168e1; DedeUserID=3706942631446799; DedeUserID__ckMd5=8bf96482ed2ba93f"
+      }
+    },
     {
       "key": "YouTube",
       "name": "YouTube",
