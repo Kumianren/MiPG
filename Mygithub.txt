@@ -12,12 +12,12 @@
             "url": "https://9280.kstore.vip/wex.json",
             "name": "🐃(备)"
         },
-                {
-            "url": "http://摸鱼儿.cc",
+        {
+            "url": "http://fish.y456y.com",
             "name": "🐟(原)"
         },
         {
-            "url": "https://6800.kstore.vip/fish.json",
+            "url": "http://我不是.小不点.com",
             "name": "🐟(备)"
         },
         {
