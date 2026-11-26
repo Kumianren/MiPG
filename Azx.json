@@ -128,7 +128,7 @@
     },
     {
       "key": "360资源",
-      "name": "360. | 广告",
+      "name": "360 | 广告",
       "type": 1,
       "api": "https://360zy.com/api.php/seaxml/vod/",
       "searchable": 1,
@@ -160,9 +160,9 @@
         }
       }
     },
-    {  "key": "咕噜",   "name": "咕噜 | X.S.",   "type": 3,   "api": "csp_Gulu",   "jar": "./xs.jar",   "searchable": 1,   "quickSearch": 1,   "filterable": 1  },
-    {  "key": "韩圈",   "name": "韩圈 | X.S.",   "type": 3,   "api": "csp_Hxq",   "jar": "./xs.jar",   "searchable": 1,   "quickSearch": 1,   "filterable": 1  },
-    {  "key": "懂片",  "name": "懂片 | X.S.",    "type": 3,  "jar": "./xs.jar",  "api": "csp_DongPian"    },
+    {  "key": "咕噜",   "name": "咕噜 | X.S.",   "type": 3,   "api": "csp_Gulu",   "jar": "./spider.jar",   "searchable": 1,   "quickSearch": 1,   "filterable": 1  },
+    {  "key": "韩圈",   "name": "韩圈 | X.S.",   "type": 3,   "api": "csp_Hxq",   "jar": "./spider.jar",   "searchable": 1,   "quickSearch": 1,   "filterable": 1  },
+    {  "key": "懂片",  "name": "懂片 | X.S.",    "type": 3,  "jar": "./spider.jar",  "api": "csp_DongPian"    },
 //    {  "key": "网盘集合",  "name": "大包 | 网盘",  "type": 3,  "api": "csp_网盘集合",  "searchable": 1,  "filterable": 0,  "changeable": 0,  "ext": {  "share": "./网盘集合.json",  "commonConfig": "./json/peizhiZX.json"  }  },
 {
       "key": "csp_BiliFilm",
